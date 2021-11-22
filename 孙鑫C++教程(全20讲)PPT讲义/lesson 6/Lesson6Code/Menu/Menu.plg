@@ -1,0 +1,31 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: Menu - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "D:\Temp\RSP1C6.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Debug/Menu.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ   /c 
+"E:\VCLesson\Lesson6\Menu\Menu.cpp"
+"E:\VCLesson\Lesson6\Menu\MenuView.cpp"
+]
+Creating command line "cl.exe @D:\Temp\RSP1C6.tmp" 
+Creating command line "link.exe /nologo /subsystem:windows /incremental:yes /pdb:"Debug/Menu.pdb" /debug /machine:I386 /out:"Debug/Menu.exe" /pdbtype:sept  .\Debug\Menu.obj .\Debug\StdAfx.obj .\Debug\MainFrm.obj .\Debug\MenuDoc.obj .\Debug\MenuView.obj .\Debug\Menu.res "
+<h3>Output Window</h3>
+Compiling...
+MenuView.cpp
+Generating Code...
+Skipping... (no relevant changes detected)
+Menu.cpp
+Linking...
+
+
+
+<h3>Results</h3>
+Menu.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

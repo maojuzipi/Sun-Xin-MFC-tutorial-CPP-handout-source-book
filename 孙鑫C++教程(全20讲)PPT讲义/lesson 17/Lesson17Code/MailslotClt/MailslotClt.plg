@@ -1,0 +1,54 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: MailslotClt - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x804 /fo"Debug/MailslotClt.res" /d "_DEBUG" /d "_AFXDLL" "F:\VCLesson\Lesson17\MailslotClt\MailslotClt.rc"" 
+Creating temporary file "D:\Temp\RSP153.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Debug/MailslotClt.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ   /c 
+"F:\VCLesson\Lesson17\MailslotClt\MailslotClt.cpp"
+"F:\VCLesson\Lesson17\MailslotClt\MainFrm.cpp"
+"F:\VCLesson\Lesson17\MailslotClt\MailslotCltDoc.cpp"
+"F:\VCLesson\Lesson17\MailslotClt\MailslotCltView.cpp"
+]
+Creating command line "cl.exe @D:\Temp\RSP153.tmp" 
+Creating temporary file "D:\Temp\RSP154.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Debug/MailslotClt.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ   /c 
+"F:\VCLesson\Lesson17\MailslotClt\StdAfx.cpp"
+]
+Creating command line "cl.exe @D:\Temp\RSP154.tmp" 
+Creating temporary file "D:\Temp\RSP155.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:yes /pdb:"Debug/MailslotClt.pdb" /debug /machine:I386 /out:"Debug/MailslotClt.exe" /pdbtype:sept 
+.\Debug\MailslotClt.obj
+.\Debug\StdAfx.obj
+.\Debug\MainFrm.obj
+.\Debug\MailslotCltDoc.obj
+.\Debug\MailslotCltView.obj
+.\Debug\MailslotClt.res
+]
+Creating command line "link.exe @D:\Temp\RSP155.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+MailslotClt.cpp
+MainFrm.cpp
+MailslotCltDoc.cpp
+MailslotCltView.cpp
+Generating Code...
+Linking...
+
+
+
+<h3>Results</h3>
+MailslotClt.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

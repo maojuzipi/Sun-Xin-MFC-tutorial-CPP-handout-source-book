@@ -1,0 +1,41 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: Style - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "e:\Temp\RSP158.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /FR"Debug/" /Fp"Debug/Style.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"E:\VCLesson\Lesson9\Style\Splash.cpp"
+]
+Creating command line "cl.exe @e:\Temp\RSP158.tmp" 
+Creating temporary file "e:\Temp\RSP159.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:yes /pdb:"Debug/Style.pdb" /debug /machine:I386 /out:"Debug/Style.exe" /pdbtype:sept 
+.\Debug\MainFrm.obj
+.\Debug\StdAfx.obj
+.\Debug\Style.obj
+.\Debug\StyleDoc.obj
+.\Debug\StyleView.obj
+.\Debug\Style.res
+.\Debug\Splash.obj
+]
+Creating command line "link.exe @e:\Temp\RSP159.tmp"
+<h3>Output Window</h3>
+Compiling...
+Splash.cpp
+Linking...
+Creating command line "bscmake.exe /nologo /o"Debug/Style.bsc"  .\Debug\StdAfx.sbr .\Debug\MainFrm.sbr .\Debug\Style.sbr .\Debug\StyleDoc.sbr .\Debug\StyleView.sbr .\Debug\Splash.sbr"
+Creating browse info file...
+<h3>Output Window</h3>
+
+
+
+<h3>Results</h3>
+Style.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

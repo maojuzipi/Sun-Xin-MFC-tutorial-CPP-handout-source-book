@@ -1,0 +1,54 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: Parent - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x804 /fo"Debug/Parent.res" /d "_DEBUG" /d "_AFXDLL" "F:\VCLesson\Lesson17\Parent\Parent.rc"" 
+Creating temporary file "D:\Temp\RSP93.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Debug/Parent.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ   /c 
+"F:\VCLesson\Lesson17\Parent\Parent.cpp"
+"F:\VCLesson\Lesson17\Parent\MainFrm.cpp"
+"F:\VCLesson\Lesson17\Parent\ParentDoc.cpp"
+"F:\VCLesson\Lesson17\Parent\ParentView.cpp"
+]
+Creating command line "cl.exe @D:\Temp\RSP93.tmp" 
+Creating temporary file "D:\Temp\RSP94.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Debug/Parent.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ   /c 
+"F:\VCLesson\Lesson17\Parent\StdAfx.cpp"
+]
+Creating command line "cl.exe @D:\Temp\RSP94.tmp" 
+Creating temporary file "D:\Temp\RSP95.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:yes /pdb:"Debug/Parent.pdb" /debug /machine:I386 /out:"Debug/Parent.exe" /pdbtype:sept 
+.\Debug\Parent.obj
+.\Debug\StdAfx.obj
+.\Debug\MainFrm.obj
+.\Debug\ParentDoc.obj
+.\Debug\ParentView.obj
+.\Debug\Parent.res
+]
+Creating command line "link.exe @D:\Temp\RSP95.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+Parent.cpp
+MainFrm.cpp
+ParentDoc.cpp
+ParentView.cpp
+Generating Code...
+Linking...
+
+
+
+<h3>Results</h3>
+Parent.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

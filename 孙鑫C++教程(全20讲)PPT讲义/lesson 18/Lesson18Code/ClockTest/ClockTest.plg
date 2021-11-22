@@ -1,0 +1,31 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: ClockTest - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "D:\Temp\RSP23.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Debug/ClockTest.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"F:\VCLesson\Lesson18\ClockTest\ClockTest.cpp"
+"F:\VCLesson\Lesson18\ClockTest\ClockTestDlg.cpp"
+]
+Creating command line "cl.exe @D:\Temp\RSP23.tmp" 
+Creating command line "link.exe /nologo /subsystem:windows /incremental:yes /pdb:"Debug/ClockTest.pdb" /debug /machine:I386 /out:"Debug/ClockTest.exe" /pdbtype:sept  .\Debug\clock.obj .\Debug\ClockTest.obj .\Debug\ClockTestDlg.obj .\Debug\StdAfx.obj .\Debug\ClockTest.res "
+<h3>Output Window</h3>
+Compiling...
+ClockTestDlg.cpp
+Generating Code...
+Skipping... (no relevant changes detected)
+ClockTest.cpp
+Linking...
+
+
+
+<h3>Results</h3>
+ClockTest.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

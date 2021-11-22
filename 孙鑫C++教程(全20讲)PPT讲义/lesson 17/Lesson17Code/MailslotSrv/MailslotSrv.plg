@@ -1,0 +1,37 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: MailslotSrv - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "D:\Temp\RSP131.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Debug/MailslotSrv.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ   /c 
+"F:\VCLesson\Lesson17\MailslotSrv\MailslotSrvView.cpp"
+]
+Creating command line "cl.exe @D:\Temp\RSP131.tmp" 
+Creating temporary file "D:\Temp\RSP132.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:yes /pdb:"Debug/MailslotSrv.pdb" /debug /machine:I386 /out:"Debug/MailslotSrv.exe" /pdbtype:sept 
+.\Debug\MailslotSrv.obj
+.\Debug\StdAfx.obj
+.\Debug\MainFrm.obj
+.\Debug\MailslotSrvDoc.obj
+.\Debug\MailslotSrvView.obj
+.\Debug\MailslotSrv.res
+]
+Creating command line "link.exe @D:\Temp\RSP132.tmp"
+<h3>Output Window</h3>
+Compiling...
+MailslotSrvView.cpp
+Linking...
+
+
+
+<h3>Results</h3>
+MailslotSrv.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

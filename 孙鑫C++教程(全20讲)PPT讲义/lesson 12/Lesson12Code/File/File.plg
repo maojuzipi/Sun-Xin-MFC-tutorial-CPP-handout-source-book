@@ -1,0 +1,19 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: File - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "link.exe /nologo /subsystem:windows /incremental:yes /pdb:"Debug/File.pdb" /debug /machine:I386 /out:"Debug/File.exe" /pdbtype:sept  .\Debug\File.obj .\Debug\FileDoc.obj .\Debug\FileView.obj .\Debug\MainFrm.obj .\Debug\StdAfx.obj .\Debug\File.res "
+<h3>Output Window</h3>
+Linking...
+
+
+
+<h3>Results</h3>
+File.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
